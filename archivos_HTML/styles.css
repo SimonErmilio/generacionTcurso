@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-imagen {
+    display: flex;
+    width: 140px;
+    height: 100px;
+    margin: 10px 10px;
+}
+
+.titulo h1 {
+    font-family: cursive;
+    font-size: 60px;
+    color: #3c3c3c;
+}
+
+.iconos {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    font-size: 40px;
+    position: relative;
+    top: 35px;
+}
+
+a i {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #3c3c3c;
+    transition: all .2s ease-in-out;
+
+}
+
+a i:hover {
+    transform: scale(1.1);
+}
+
+.navegador {
+    display: block;
+    background: linear-gradient(#e95f03c0, #f70505);
+    height: 60px;
+    text-align: center;
+}
+
+.lista {
+    display: inline-flex;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 140px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+    transition: all 300ms ease;
+}
+
+.link:hover {
+    border-bottom: 2px solid #c7c7c7;
+    transform: scale(1.1);
+    padding-bottom: 3px;
+}
+
+.prueba img {
+    display: block;
+    position: relative;
+    margin-top: 10px;	
+    width: 100%;
+    height: 500px;
+}
+  
+.prueba h5 {
+    display: block;
+    text-align: center;
+    font-family: cursive;
+    font-size: 36px;
+    position: absolute;
+    top: 440px;
+    left: 0px;
+    padding: 5px;
+    width: 100%;
+}
+
+.prueba h2 {
+    display: block;
+    text-align: center;
+    font-family: cursive;
+    font-size: 80px;
+    position: absolute;
+    top: 320px;
+    left: 0px;
+    padding: 5px;
+    width: 100%;
+}
+
+.imagenes-tabla {
+    width: 100px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+}
+
+table th, td {
+    border: 2px solid #000000;
+}
+
+td {
+    padding: 5px;
+    font-size: 25px;
+}
+
+th {
+    background-color: orangered;
+    padding: 5px;
+    font-size: 30px;
+}
+table tr:hover {
+    background-color: #cac8c8;
+}
